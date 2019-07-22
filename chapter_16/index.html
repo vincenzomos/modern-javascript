@@ -28,21 +28,29 @@
     <button>Unsibscribe from changes</button>
   </div>
 
-  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-firestore.js"></script>
-  <script>
-    // Initialize Firebase
-    var config = {
-      apiKey: "AIzaSyBSEjfIg32YR9X0w8vdvmEJ8VkdqVS85Gk",
-      authDomain: "udemy-js-ab45b.firebaseapp.com",
-      databaseURL: "https://udemy-js-ab45b.firebaseio.com",
-      projectId: "udemy-js-ab45b",
-      storageBucket: "udemy-js-ab45b.appspot.com",
-      messagingSenderId: "307507834502"
-    };
-    firebase.initializeApp(config);
-    const db = firebase.firestore();  
-  </script>
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-firestore.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAvtA1OvJu4RZ4AYOZtIzlEfEuyLHltums",
+    authDomain: "udemy-modern-javascript-e8d22.firebaseapp.com",
+    databaseURL: "https://udemy-modern-javascript-e8d22.firebaseio.com",
+    projectId: "udemy-modern-javascript-e8d22",
+    storageBucket: "udemy-modern-javascript-e8d22.appspot.com",
+    messagingSenderId: "494602400531",
+    appId: "1:494602400531:web:22191d26d9b17273"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
+
+</script>
   <script src="sandbox.js"></script>
 </body>
 </html>
